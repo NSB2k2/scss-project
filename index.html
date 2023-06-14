@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--     Font GG -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--     Font Awesome -->
+    <link rel="stylesheet" href="asset/fontawesome-free-6.4.0-web/css/all.min.css">
+    <!--     Owl CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!--     Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--     Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="container-fluid">
+        <nav class="cyberNavbar navbar navbar-expand-md">
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar__left col-md-8 col-lg-9 col-xl-7">
+                <a href="#" class="navbar__brand">
+                    <img class="logo-black" src="img/logo-coral.svg" alt="logo black">
+                    <img class="logo-white" src="img/logo-coral-white.svg" alt="logo white">
+                </a>
+                <div class="cyberCategories">
+                    <i class="fa fa-th"></i>
+                    <span>Categories</span>
+                </div>
+                <form class="form-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for courses" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text">
+                            <i class="fa fa-search"></i>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <div class="navbar__right col-md-4 col-lg-3 col-xl-5">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item business">
+                        <a class="nav-link" aria-current="page" href="#">Udemy for Business</a>
+                        <div class="overplay">
+                            <p>Get your team access to Udemy’s top 2,500 courses anytime, anywhere.</p>
+                            <a href="#">Try Udemy for  Business</a>
+                        </div>
+                    </li>
+                    <li class="nav-item instructor">
+                        <a class="nav-link" href="#">Become an Instructor</a>
+                        <div class="overplay">
+                            <p>Get your team access to Udemy’s top 2,500 courses anytime, anywhere.</p>
+                            <a href="#">Try Udemy for  Business</a>
+                        </div>
+                    </li>
+                    <li class="nav-item cart">
+                        <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    </li>
+                    <li class="nav-item cyberNavButton">
+                        <button class="button button-white">Log In</button>
+                        <button class="button button-red">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Cover -->
+<section class="cover">
+    <div class="cover__content">
+        <h1>Learn on your schedule</h1>
+        <p>Study any topic, anytime. Explore thousands of courses for as low as $19.99</p>
+        <form class="cover__form">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="What do want to learn" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text">
+                            <i class="fa fa-search"></i>
+                        </span>
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Intro -->
+<section class="intro">
+    <div class="container">
+        <div class="row row-cols-3">
+            <div class="col">
+                <div class="intro__items">
+                    <div class="intro__icon"><i class="fa fa-bullseye"></i></div>
+                    <div class="intro__content">
+                        <p>80,000 online courses</p>
+                        <p>Explore a variety of fresh topics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="intro__items">
+                    <div class="intro__icon"><i class="fa fa-spinner"></i></div>
+                    <div class="intro__content">
+                        <p>Expert instruction</p>
+                        <p>Find the right instructor for you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="intro__items">
+                    <div class="intro__icon"><i class="fa fa-sync-alt"></i></div>
+                    <div class="intro__content">
+                        <p>Lifetime access</p>
+                        <p>Learn on your schedule</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Course -->
+<section class="course">
+    <div class="course__content">
+        <div class="row">
+            <div class="col-xl-4 col-md-3 course__left text-center text-md-start">
+                <div>
+                    <h2>The world’s largest selection of courses</h2>
+                    <p>Choose from over 80,000 online video courses with new additions published every month</p>
+                </div>
+            </div>
+            <div class="col-xl-8 col-md-9">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="dev-tab" data-bs-toggle="tab" data-bs-target="#dev-tab-pane" type="button" role="tab">Development</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab">Design</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business-tab-pane" type="button" role="tab">Business</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="it-tab" data-bs-toggle="tab" data-bs-target="#it-tab-pane" type="button" role="tab">IT</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal-tab-pane" type="button" role="tab">Personal</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab">Marketing</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="photo-tab" data-bs-toggle="tab" data-bs-target="#photo-tab-pane" type="button" role="tab">Photography</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="dev-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <div class="owl-carousel owl-theme course__carousel">
+                            <div class="item">
+                                <div class="card">
+                                    <img src="img/kh1.jpg" class="card-img-top" alt="kh1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h5>
+                                        <p class="card-text">Colt Steele Ian Schooner</p>
+                                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span>4.6</span>
+                                            <span>(11.597)</span>
+                                        </div>
+                                        <div class="cost">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card">
+                                    <img src="img/kh2.jpg" class="card-img-top" alt="kh2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Learning Python for Data Analysis and Visualization</h5>
+                                        <p class="card-text">Jose Portillo</p>
+                                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span>4.6</span>
+                                            <span>(11.597)</span>
+                                        </div>
+                                        <div class="cost">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card">
+                                    <img src="img/kh3.jpg" class="card-img-top" alt="kh3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Advanced CSS and Sass: Flexbox, Grid, Animations and More!</h5>
+                                        <p class="card-text">Jonas Schliemann</p>
+                                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span>4.6</span>
+                                            <span>(11.597)</span>
+                                        </div>
+                                        <div class="cost">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card">
+                                    <img src="img/kh4.jpg" class="card-img-top" alt="kh4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Modern JavaScript From The Beginning</h5>
+                                        <p class="card-text">Brad Traverse</p>
+                                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span>4.6</span>
+                                            <span>(11.597)</span>
+                                        </div>
+                                        <div class="cost">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card">
+                                    <img src="img/kh5.jpg" class="card-img-top" alt="kh5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h5>
+                                        <p class="card-text">Brad Traverse</p>
+                                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span>4.6</span>
+                                            <span>(11.597)</span>
+                                        </div>
+                                        <div class="cost">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card">
+                                    <img src="img/kh6.jpg" class="card-img-top" alt="kh6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">iOS 12 & Swift - The Complete iOS App Development Bootcamp</h5>
+                                        <p class="card-text">Angela Yu</p>
+                                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                                            <span>4.6</span>
+                                            <span>(11.597)</span>
+                                        </div>
+                                        <div class="cost">
+                                            <span>$179.99</span>
+                                            <span>$9.99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="design-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="business-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="it-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="personal-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="photo-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Viewing -->
+<section class="viewing">
+    <div class="viewing__content">
+        <h2>Students are viewing</h2>
+        <div class="owl-carousel owl-theme viewing__carousel">
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh8.jpg" class="card-img-top" alt="kh1">
+                    <div class="card-body">
+                        <h5 class="card-title">The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</h5>
+                        <p class="card-text">Colt Steele Ian Schooner</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh9.jpg" class="card-img-top" alt="kh2">
+                    <div class="card-body">
+                        <h5 class="card-title">Learning Python for Data Analysis and Visualization</h5>
+                        <p class="card-text">Jose Portillo</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh10.jpg" class="card-img-top" alt="kh3">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced CSS and Sass: Flexbox, Grid, Animations and More!</h5>
+                        <p class="card-text">Jonas Schliemann</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh11.jpg" class="card-img-top" alt="kh4">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern JavaScript From The Beginning</h5>
+                        <p class="card-text">Brad Traverse</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh12.jpg" class="card-img-top" alt="kh5">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap 4 From Scratch With 5 Projects</h5>
+                        <p class="card-text">Brad Traverse</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh13.jpg" class="card-img-top" alt="kh6">
+                    <div class="card-body">
+                        <h5 class="card-title">iOS 12 & Swift - The Complete iOS App Development Bootcamp</h5>
+                        <p class="card-text">Angela Yu</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <img src="img/kh14.jpg" class="card-img-top" alt="kh6">
+                    <div class="card-body">
+                        <h5 class="card-title">iOS 12 & Swift - The Complete iOS App Development Bootcamp</h5>
+                        <p class="card-text">Angela Yu</p>
+                        <div class="star">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                                            </span>
+                            <span>4.6</span>
+                            <span>(11.597)</span>
+                        </div>
+                        <div class="cost">
+                            <span>$179.99</span>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner -->
+<section class="banner">
+    <div class="container banner__content">
+        <h2>Learn anytime, anywhere</h2>
+        <p>Take courses on any of your devices</p>
+        <p>Go at your own pace with lifetime access</p>
+        <p>Try risk-free with our 30-day money-back guarantee</p>
+        <button class="button-red">Sign Up For Free</button>
+        <div class="row row-cols-2">
+            <div class="col text-end">
+                <img src="img/apple_btn.png" alt="apple">
+            </div>
+            <div class="col text-start">
+                <img src="img/google_btn.png" alt="apple">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories -->
+<section class="category">
+    <div class="category__content">
+        <h2>Top Categories</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col category__item">
+                <i class="fa fa-code"></i>
+                <span>Development</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-chart-bar"></i>
+                <span>Business</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-laptop"></i>
+                <span>IT and Software</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-pencil-alt"></i>
+                <span>Design</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-bullseye"></i>
+                <span> Marketing</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-book"></i>
+                <span>Personal Development</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-camera-retro"></i>
+                <span>Photography</span>
+            </div>
+            <div class="col category__item">
+                <i class="fa fa-music"></i>
+                <span>Music</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Student -->
+<section class="student">
+    <div class="student__content">
+        <h2>What our students have to say</h2>
+        <div class="student__card">
+            <div class="owl-carousel owl-theme student__carousel">
+                <div class="item">
+                    <div class="card card--feedback">
+                        <div class="card-body">
+                            <div class="card__star">
+                                <div class="card__avatar">
+                                    <img src="img/s1.jpg" alt="student 1">
+                                </div>
+                                <div>
+                                    <p>Oscar Javier</p>
+                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__bottom">
+                                <p>I had a couple of months of experience trading without consistent results. After taking this course I'm pretty confident that I'll be a better trader and know better when to enter a trade, how to put my stop loss and take profit, how many lots to trade and much more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card--feedback">
+                        <div class="card-body">
+                            <div class="card__star">
+                                <div class="card__avatar">
+                                    <img src="img/s2.jpg" alt="student 1">
+                                </div>
+                                <div>
+                                    <p>Estelle</p>
+                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__bottom">
+                                <p>My first complete Photoshop for Designing t-shirts course done! I am not a designer at all, but after taking this course I really felt like a professional with enough confidence to now go out and design for the real world. Learned SO much! thank you!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card--feedback">
+                        <div class="card-body">
+                            <div class="card__star">
+                                <div class="card__avatar">
+                                    <img src="img/s3.jpg" alt="student 1">
+                                </div>
+                                <div>
+                                    <p>Mrinal</p>
+                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__bottom">
+                                <p>Great course for beginners as well as working professionals. I'm working as a UI developer for last 2 years and worked on different javascript frameworks but the clarity of concepts which I got after taking this course is exceptional which I was not having previously.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card--feedback">
+                        <div class="card-body">
+                            <div class="card__star">
+                                <div class="card__avatar">
+                                    <img src="img/s4.jpg" alt="student 1">
+                                </div>
+                                <div>
+                                    <p>Angeles</p>
+                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__bottom">
+                                <p>I didn't know anything at all about FB ads for this course and have a client that is wanting to start using them. After taking this course feel like I can help them and so much more confident in coming up with a strategy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card--feedback">
+                        <div class="card-body">
+                            <div class="card__star">
+                                <div class="card__avatar">
+                                    <img src="img/s5.jpg" alt="student 1">
+                                </div>
+                                <div>
+                                    <p>Carol</p>
+                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__bottom">
+                                <p>After studying German for about six months my spelling and grammar is good, but I was having trouble with some pronunciation. After taking this course it has really helped me pronounce certain words I was having trouble with and also have better listening skill of German speakers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card card--feedback">
+                        <div class="card-body">
+                            <div class="card__star">
+                                <div class="card__avatar">
+                                    <img src="img/s6.jpg" alt="student 1">
+                                </div>
+                                <div>
+                                    <p>Oscar Javier</p>
+                                    <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__bottom">
+                                <p>I had a couple of months of experience trading without consistent results. After taking this course I'm pretty confident that I'll be a better trader and know better when to enter a trade, how to put my stop loss and take profit, how many lots to trade and much more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Partner -->
+<section class="partner">
+    <div class="partner__content">
+        <p>Trusted by companies of all sizes</p>
+        <div class="partner__icon">
+            <div class="partner__items"> <img src="img/booking.svg" alt=""></div>
+            <div class="partner__items"><img src="img/volkswagen.svg" alt=""></div>
+            <div class="partner__items"> <img src="img/mercedes.svg" alt=""></div>
+            <div class="partner__items"><img src="img/pinterest.svg" alt=""></div>
+            <div class="partner__items"><img src="img/adidas.svg" alt=""></div>
+            <div class="partner__items"><img src="img/paypal.svg" alt=""></div>
+        </div>
+
+    </div>
+</section>
+<!-- Jobs -->
+<section class="job">
+    <div class="job__content container">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col job__item">
+                <h3>Become an Instructor</h3>
+                <p>Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+                <button class="button-red">Start searching today</button>
+            </div>
+            <div class="col job__item">
+                <h3>Udemy for Business</h3>
+                <p>Get unlimited access to 4,000+ of Udemy’s top courses for your team.</p>
+                <button class="button-red">Start searching today</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="footer__top">
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link footer__special" href="#">Udemy for Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link footer__special" href="#">Teach on Udemy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Udemy app</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help and Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Affiliate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sitemap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Featured courses</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="btn-group dropup text-md-end">
+                    <button class="btn dropdown-toggle button--dropup " type="button" data-bs-toggle="dropdown">
+                        <i class="fa fa-globe"></i>English
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Deutsch</a>
+                        <a class="dropdown-item" href="#">Español</a>
+                        <a class="dropdown-item" href="#">Français</a>
+                        <a class="dropdown-item" href="#">Bahasa Indonesia</a>
+                        <a class="dropdown-item" href="#">Italiano</a>
+                        <a class="dropdown-item" href="#">日本語</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer__bottom">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col footer__icon">
+                <img class="logo-black" src="img/logo-coral.svg" alt="">
+                <img class="logo-white" src="img/logo-coral-white.svg" alt="">
+                <span>Copyright © 2020 Udemy, Inc.</span>
+            </div>
+            <div class="col">
+                <ul class="nav nav-pills justify-content-md-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Terms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy Policy and Cookie Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Sidebar Mini -->
+<div class="sidebar-mini">
+    <button class="sidebar__icon">
+        <i class="fa fa-cog"></i>
+    </button>
+    <div class="sidebar__content">
+        <h2>Dark Mode</h2>
+        <div class="d-flex">
+            <span>Off</span>
+            <label class="switch" for="checkbox">
+                <input type="checkbox" name="" id="checkbox">
+                <span class="slider"></span>
+            </label>
+            <span>On</span>
+        </div>
+    </div>
+</div>
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<!-- Bootstrap Js -->
+<script src="javascript/bootstrap.bundle.min.js"></script>
+<!-- Owl Js -->
+<script src="javascript/owl.carousel.min.js"></script>
+<script src="javascript/owl-control.js"></script>
+<!-- Main js -->
+<script src="javascript/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.partner{
+  background-color: $color-gray-1;
+  padding: $pd-2 0;
+  .partner__content{
+    width: 70%;
+    margin: 0 auto;
+    p{
+      text-align: center;
+    }
+    .partner__icon{
+      display: flex;
+      justify-content: space-between;
+    }
+    @include responsive('extra-large'){
+      width: 80%;
+    }
+    @include responsive('large'){
+      width: 90%;
+    }
+    @include responsive('medium'){
+      width: 60%;
+      .partner__icon{
+        flex-wrap: wrap;
+        .partner__items{
+          width: 50%;
+          text-align: center;
+          margin-bottom: $mg-0;
+        }
+      }
+    }
+  }
+}

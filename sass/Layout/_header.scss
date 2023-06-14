@@ -1,0 +1,133 @@
+.navbar__left{
+  display: flex;
+  align-items: center;
+  .navbar__brand{
+    .logo-white{
+      display: none;
+    }
+    flex-grow: 1;
+    text-align: center;
+    img{
+      width: 110px;
+    }
+  }
+  .cyberCategories{
+    flex-grow: 1;
+    text-align: center;
+    @include styleText($color-black-light,$fs-0,$fw-0);
+    cursor: pointer;
+    i{
+      color: $color-gray-3;
+    }
+  }
+  .form-search{
+    flex-grow: 8;
+    @include styleFormSearch($color-white-scream,$color-white-0,$color-gray-4,$color-black-light);
+  }
+}
+.navbar__right{
+  .navbar-nav{
+    justify-content: space-around;
+    align-items: center;
+    .nav-item{
+      padding: $pd-0 $pd-0 + 2;
+      border-radius: $border-radius-0 + 1;
+      transition: all 0.5s;
+      position: relative;
+      .nav-link{
+        text-align: center;
+        @include styleText($color-black-light,$fs-0,$fw-0);
+      }
+      &:hover{
+        background-color: $color-gray-1;
+        z-index: 10;
+        .overplay{
+          display: block;
+        }
+      }
+      .overplay{
+        display: none;
+        background-color: $color-white-0;
+        width: 330px;
+        text-align: center;
+        padding: $pd-2;
+        position: absolute;
+        top:  52px;
+        right: 0;
+        border-top: 1px solid $color-gray-1;
+        box-shadow: 0 4px 16px $color-gray-1;
+        &::before{
+          content: "";
+          width: 15px;
+          height: 15px;
+          background-color: $color-white-0;
+          display: block;
+          border-top: 1px solid $color-gray-1;
+          border-left: 1px solid $color-gray-1;
+          position: absolute;
+          top: -7px;
+          right: 10%;
+          transform: rotate(45deg);
+        }
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+    .cart{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      line-height: 25px;
+      .nav-link{
+        font-size: $fs-2 + 2;
+      }
+    }
+    .cyberNavButton{
+      display: flex;
+      &:hover{
+        background-color: transparent;
+      }
+      .button-white{
+        margin-right: $mg-0;
+      }
+      .button{
+        white-space: nowrap;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1201px)  and (max-width: 1300px){
+  .navbar__right .nav-link{
+    white-space: nowrap;
+    font-size: $fs-0 - 2!important;
+  }
+  .navbar__right .button{
+    font-size: $fs-0 - 2;
+  }
+}
+@include responsive('extra-large'){
+  .business,.instructor{
+    display: none;
+  }
+  .navbar__right{
+    .cart{
+      margin-left: $mg-1;
+    }
+  }
+}
+@include responsive('medium'){
+  .navbar__left{
+    .cyberCategories,.form-search{
+      display: none;
+    }
+  }
+  .navbar__right{
+    .cyberNavButton{
+      display: none!important;
+    }
+    .cart{
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.category__content{
+  width: 90%;
+  margin: auto;
+  h2{
+    font-size: $fs-2;
+  }
+  .category__item{
+    padding: $pd-2;
+    font-size: $fs-2;
+    border: 1px solid $color-gray-1;
+    margin-bottom: $mg-1 - 5;
+    &:hover{
+      box-shadow: 0 0 1px 1px $color-gray-1, 0 3px 1px $color-gray-1;
+    }
+  }
+}
